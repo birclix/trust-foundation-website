@@ -1,0 +1,572 @@
+/* Responsive Design */
+
+/* Mobile Responsive Styles page 1 */
+@media only screen and (max-width: 768px) {
+    
+    /* Navbar */
+    .navbar {
+        display: flex;
+    }
+
+    .logo {
+        margin-top: 10px;
+        width: 10px;
+    }
+
+    .list {
+        display: flex;
+        padding: 17px 45px; 
+        margin: 25px 32px ;
+    }
+
+    .list li a{
+        padding: 0 21px;
+        margin: 0;
+    }
+
+    .list a {
+        display: flex;
+        font-size: 10px;
+    }
+
+    .section1 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .head-para {
+        width: 90%;
+        margin: 20px 0;
+    }
+
+    h1 {
+        font-size: 50px;
+        margin: 10px 0;
+    }
+
+    .head-para h3 {
+        font-size: 25px;
+    }
+
+    .paragraph1 {
+        font-size: 18px;
+        padding: 10px 0;
+    }
+
+    .images {
+        width: 90%;
+        margin: 20px 0;
+    }
+
+    .img1 {
+        width: 100%;
+        height: 75%;
+    }
+
+    .section2 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .head-para2 {
+        font-size: 18px;
+        margin: 20px 0;
+        padding: 0;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    h4 {
+        font-size: 25px;
+        margin: 20px 0;
+    }
+
+    .images2 {
+        margin: 10px 0;
+    }
+
+    .img2 {
+        width: 100%;
+        height: auto;
+        margin: 20px 0px;
+    }
+
+    button,
+    .button {
+        font-size: 18px;
+        padding: 10px 20px;
+        margin: 20px 0;
+    }
+
+/* Footer */
+
+    footer {
+        padding: 15px 0px;
+        margin: 0;
+    }
+
+    .footer-links ul {
+        display: flex;
+    }
+
+    .footer-links a {
+        font-weight: 300;
+        font-size: 12px;
+        padding: 0 10px;
+    }
+
+    .footer-bottom p {
+        font-size: 12px;
+    }
+}
+
+/* Mobile Responsive Styles page 2 */
+@media (max-width: 768px) {
+   
+
+    .section3 {
+        flex-direction: column;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .images3 {
+        width: 100%;
+    }
+
+    .img3 {
+        width: 100%;
+        height: auto;
+    }
+
+    .heading1 {
+        padding-left: 0;
+        font-size: 24px;
+        opacity: 1;
+    }
+
+    .section4 {
+        padding: 10px;
+    }
+
+    .heading2 {
+        font-size: 40px;
+        padding: 10px 0;
+    }
+
+    .para1, .para2 {
+        flex-direction: column;
+        padding: 10px 0;
+        align-items: center;
+    }
+
+    .para1 p, .para2 p {
+        font-size: 18px;
+        text-align: justify;
+        margin: 10px 0;
+    }
+
+    .img4, .img5 {
+        width: 80%;
+        height: auto;
+        margin: 30px 0;
+    }
+
+    .section4 button {
+        margin: 2% 31%;   
+    }
+
+    .section4 button a {
+        color: #000;
+        text-decoration: none;
+    }
+
+    .section4 button:hover {
+        background-color: rgb(246, 142, 177);
+    }
+}
+
+
+/* Mobile Responsive Styles page 3*/
+@media (max-width: 768px) {
+
+
+    .section5 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 20px 10px;
+    }
+
+    .main {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .main h1 {
+        font-size: 28px;
+        font-weight: 700;
+    }
+
+    .img6 {
+        width: 85%;
+        height: 80%;
+        margin-top: 10px;
+        border-radius: 15px;
+    }
+
+    .section6 {
+        padding: 20px 10px;
+    }
+
+    .para3, .para4 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: justify;
+    }
+
+    .para3 p, .para4 p {
+        font-size: 18px;
+        padding: 5%;
+    }
+
+    .img7{
+        width: 50%;
+        height: 50%;
+        border-radius: 20px;
+        margin: 10px 0
+    }
+
+    .img8 {
+        width: 60%;
+        height: 70%;
+        border-radius: 20px;
+        margin: 10px 0;
+    }
+
+    .heading2 h1 {
+        font-size: 22px;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .section6 button {
+        margin: 2% 31%; 
+    }
+
+    .section6 button a {
+        color: #000;
+        text-decoration: none;
+    }
+
+    .section6 button:hover {
+        background-color: rgb(246, 142, 177);
+    }
+}
+
+/* Mobile Responsive Styles page 4 */
+@media (max-width: 768px) {
+
+    .section7 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img9 {
+        width: 100%;
+        height: auto;
+    }
+
+    .section8 {
+        padding: 20px 10px;
+        margin-top: 0;
+        text-align: center;
+    }
+
+    .heading3 h2 {
+        font-size: 22px;
+        margin-bottom: 15px;
+    }
+
+    .para5 {
+        flex-direction: column;
+        align-items: center;
+        text-align: justify;
+    }
+
+    .para5 p {
+        font-size: 18px;
+        margin: 10px 0;
+        padding: 0;
+    }
+
+    .img10 {
+        width: 80%;
+        height: 80%;
+        border-radius: 20px;
+        margin: 15px 0;
+    }
+
+    .para6 {
+        text-align: justify;
+        padding: 10px;
+    }
+
+    .para6 p {
+        font-size: 18px;
+        color: red;
+        margin: 10px 0;
+    }
+
+    .pictures {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px 0px;
+        justify-content: center;
+        padding: 10px 0;
+    }
+
+    .img11 {
+        width: 68%;
+        height: 100%;
+        border-radius: 20px;
+        margin-bottom: 20px;
+    }
+
+    .img12{
+        width: 66%;
+        height: 50%;
+        border-radius: 20px;
+        margin-top: 90px;
+    }
+
+    .img13{
+        width: 100%;
+        /* height: 100%; */
+        border-radius: 20px;
+        margin-top: -30%;
+        margin-bottom: 20px;
+    }
+
+    .section8 button {
+        margin: 2% 33%; 
+    }
+
+    .section8 button a {
+        color: #000;
+        text-decoration: none;
+    }
+
+    .section8 button:hover {
+        background-color: rgb(246, 142, 177);
+    }
+}
+
+
+/* Mobile Responsive Styles page 5*/
+@media (max-width: 768px) {
+    
+    .section9 {
+        background-size: cover;
+        background-position: center;
+        padding: 20px 10px;
+    }
+
+    .heading2 h1 {
+        font-size: 24px;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .heading5 h3 {
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 20px;
+        color: white;
+    }
+
+    .form {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    input {
+        width: 90%;
+        font-size: 14px;
+        padding: 10px;
+        /* margin-top: 10px ; */
+    }
+
+    textarea {
+        width: 90%;
+        padding: 10px;
+        font-size: 14px;
+        margin: 15px 0;
+    }
+
+    .section9 button {
+        margin: 2% 35%; 
+    }
+
+    .section9 button a {
+        color: #000;
+        text-decoration: none;
+    }
+
+    .section9 button:hover {
+        background-color: rgb(246, 142, 177);
+    }
+}
+
+/* Mobile Responsive Styles page 6*/
+@media (max-width: 768px) {
+
+    .section10 {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px 10px;
+    }
+
+    .section10 .img16 {
+        width: 100%;
+        height: auto;
+        margin-bottom: 15px;
+    }
+
+    .section10 h4 {
+        font-size: 24px;
+        margin: 10px 0;
+        font-weight: 600;
+    }
+
+    .section11 {
+        padding: 20px 10px;
+    }
+
+    .section11 h3 {
+        font-size: 26px;
+        margin: 27px 0;
+        text-align: center;
+        color: palevioletred;
+    }
+
+    .form2 input {
+        width: 90%;
+        margin: 10px auto;
+        padding: 10px;
+        font-size: 14px;
+        display: block;
+    }
+
+    .section11 button {
+        margin: 2% 33%; 
+    }
+
+    .section11 button a {
+        color: #000;
+        text-decoration: none;
+    }
+
+    .section11 button:hover {
+        background-color: rgb(246, 142, 177);
+    }
+}
+
+
+/* Mobile Responsive Styles page 7*/
+@media (max-width: 768px) {
+
+    .section12 {
+        padding: 20px;
+    }
+
+    .section12 textarea {
+        width: 90%;
+        margin-left: 5%;
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .section12 button {
+        margin: 2% 34%; 
+    }
+
+    .section12 button a {
+        color: #000;
+        text-decoration: none;
+    }
+
+    .section12 button:hover {
+        background-color: rgb(246, 142, 177);
+    }
+
+    .section13 {
+        flex-direction: column;
+        padding: 20px 10px;
+        text-align: center;
+    }
+
+    .section13 .img19 {
+        width: 50%;
+        height: 50%;
+        border-radius: 40px;
+        margin-top: 15px;
+    }
+
+    .para8 p {
+        font-size: 20px;
+        margin: 5% 0;
+        font-weight: 400;
+    }
+
+    .section14 {
+        flex-direction: column;
+        padding: 20px 10px;
+        text-align: center;
+    }
+
+    .section14 .img20 {
+        width: 50%;
+        height: 50%;
+        border-radius: 40px;
+        margin-top: 15px;
+    }
+
+    .para9 p {
+        font-size: 20px;
+        margin: 5% 0;
+        font-weight: 400;
+    }
+
+    .section15 {
+        flex-direction: column;
+        padding: 20px 10px;
+        text-align: center;
+    }
+
+    .section15 .img21 {
+        width: 60%;
+        height: 50%;
+        border-radius: 40px;
+        margin-top: 15px;
+    }
+
+    .para10 p {
+        font-size: 20px;
+        margin: 5% 0;
+        font-weight: 400;
+    }
+}
+
